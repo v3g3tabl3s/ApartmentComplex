@@ -1,0 +1,180 @@
+// This is the informational text sample file that comes with
+// Lab 3 of the CSE 1325 Spring 2013 semester written by Sean
+// Any questions can be sent to seanp@uta.edu
+// 											EXAMPLE
+// 1. Apartment number 						123
+// 2. Area (in square feet) 				900
+// 3. Number of bedrooms 					2
+// 4. Number of bathrooms 					1.5
+// 5. Whether there is a patio 				boolean
+// 6. Monthly rent 							$840.00
+// 7. Leased up to 							MM/dd/yyyy
+// 8. Lease period (in months) 				11
+
+Apartment:
+123
+900
+2
+1.5
+true
+840.00
+08/20/2014
+11
+
+Apartment:
+124
+1300
+2
+1.5
+false
+940.00
+08/10/2013
+11
+
+Apartment:
+125
+1300
+2
+2
+false
+800.00
+08/10/2013
+11
+
+Apartment:
+113
+1000
+3
+2
+true
+940.00
+12/20/2013
+6
+
+Apartment:
+125
+920
+2
+1.5
+true
+874.00
+08/20/2015
+8
+
+Apartment:
+201
+1050
+3
+2
+true
+1040.00
+12/20/2013
+6
+
+// Each tenant has the following attributes    	EXAMPLE
+// 1. First name 								Mary
+// 2. Last name 								Jones
+// 3. Age 										25
+// 4. Gender 									male/female
+// 5. The apartment occupied by him/her 		123
+// 6. Car port rented 							24 (or 0 if not rented)
+// 7. Garage rented 							76 (or 0 if not rented)
+// Monthly payment equals rent + car port/garage charge
+
+Tenant:
+Sean
+Pierce
+24
+MALE
+123
+24
+0
+
+Tenant:
+Carter
+Tiernan
+30
+FEMALE
+124
+0
+0
+
+Tenant:
+Doug
+Flutie
+50
+MALE
+125
+0
+50.00
+
+Tenant:
+Tony
+Romo
+33
+MALE
+201
+0
+150.00
+
+Tenant:
+Jerry
+Jones
+80
+MALE
+113
+0
+50.00
+
+
+// Each employee has the following attributes 	EXAMPLE
+// 1. First name 								John
+// 2. Last name 								Smith
+// 3. Identification number 					006
+// 4. Monthly salary 							$2500.00
+// 5. Area of specialization
+// (sales, handyperson, lawndoctor, manager, security)
+
+Employee:
+James
+Bond
+007
+2500.00
+security
+
+Employee:
+Dilbert
+Adams
+101
+9000.00
+sales
+
+
+Employee:
+Kevin
+Morgan
+4929
+7500.00
+manager
+
+Employee:
+Jack
+Reacher
+007
+2500.00
+security
+
+Employee:
+Alex
+Goligoski
+2033
+8000
+security
+
+Employee:
+Jamie
+Benn
+2014
+7525.62
+lawndoctor
+
